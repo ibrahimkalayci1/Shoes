@@ -1,12 +1,13 @@
 import React, { useEffect } from 'react'
 import { useSearchParams } from 'react-router-dom';
-type Props = {
+
+export type GenderProps = {
   selected:string;
   setSelected:React.Dispatch<React.SetStateAction<string>>;
 }
 
 
-const Gender = ({selected, setSelected} : Props ) => {
+const Gender = ({selected, setSelected} : GenderProps ) => {
 
 const [params, setParams] = useSearchParams();
 
@@ -22,7 +23,7 @@ useEffect(() => {
 
   return (
     <div>
-      <h2 className='mb-4'>Cinsiyet</h2>
+      <h2 className='mb-4 font-semibold'>Cinsiyet</h2>
 
 <div className='flex items-center gap-3'>
   <input 
@@ -31,7 +32,7 @@ useEffect(() => {
   name="gen"  
   type="radio" 
   id='men' />
-  <label htmlFor="men">Erkek</label>
+  <label htmlFor="men" className='font-semibold' >Erkek</label>
 </div>
 
 <div className='flex items-center gap-3'>
@@ -42,7 +43,7 @@ useEffect(() => {
   name="gen" 
   type="radio" 
   id='women' />
-  <label htmlFor="women">Kadın</label>
+  <label htmlFor="women" className='font-semibold' >Kadın</label>
 </div>
 
     </div>

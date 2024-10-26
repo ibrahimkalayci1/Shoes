@@ -9,13 +9,15 @@ const Home = () => {
   return (
     <div>
       <Hero />
+      
+      <Buttons open={() => setIsOpen(true) }/>
 
       <h1 className="text-[20px] md:text-[26px] lg:text-[30px]
-      xl:text-[36px] font-semibold mt-[24px] mb-4 md:mt-[28px] xl:mt-[32px] ">
+      xl:text-[36px] font-semibold mb-4 md:mt-[28px] xl:mt-[32px] ">
         Sana Uygun Seçenekler
       </h1>
       
-<Buttons open={() => setIsOpen(true) }/>
+
       <div className="grid grid-cols-4 gap-5">
         <Filter isOpen ={isOpen} close = {() => setIsOpen(false)} />
         <List />
