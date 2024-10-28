@@ -1,39 +1,38 @@
-# React + TypeScript + Vite
+<h1>Shoes with React - Tailwind - Ranstack React Query </h1>
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+<hr>
 
-Currently, two official plugins are available:
+<h2>Technologies Used</h2>
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+<p>
 
-## Expanding the ESLint configuration
+# Libraries
 
-If you are developing a production application, we recommend updating the configuration to enable type aware lint rules:
+</br></br>
 
-- Configure the top-level `parserOptions` property like this:
+- react-router-dom
+  </br>
+- react-toastify
+  </br>
+- json-server
+  </br>
+- tailwind
+  </br>
+- react-toastify
+  </br>
+- @reduxjs/toolkit
+  </br>
+- axios
+  </br>
+- xss
+  </br>
+- uidotdev
+# Testing Process
 
-```js
-export default {
-  // other rules...
-  parserOptions: {
-    ecmaVersion: 'latest',
-    sourceType: 'module',
-    project: ['./tsconfig.json', './tsconfig.node.json'],
-    tsconfigRootDir: __dirname,
-  },
-}
-```
+</br></br>
 
-- Replace `plugin:@typescript-eslint/recommended` to `plugin:@typescript-eslint/recommended-type-checked` or `plugin:@typescript-eslint/strict-type-checked`
-- Optionally add `plugin:@typescript-eslint/stylistic-type-checked`
-- Install [eslint-plugin-react](https://github.com/jsx-eslint/eslint-plugin-react) and add `plugin:react/recommended` & `plugin:react/jsx-runtime` to the `extends` list
-# tanstack_shoes
-# Shoes
-# Shoes
-# Shoes
-# Shoes
-# shoes_app
-# shoes_app
-# figma_shoes
-# shoes
+- BDD
+  </br>
+  </br> Responsive </p>
+
+![Shoes TS](https://github.com/user-attachments/assets/64ffd181-d854-4af7-89f7-0e13ff13d875)
