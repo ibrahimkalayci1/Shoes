@@ -35,4 +35,4 @@
   </br>
   </br> Responsive </p>
 
-![Shoes TS](https://github.com/user-attachments/assets/64ffd181-d854-4af7-89f7-0e13ff13d875)
+![Shoes TS](https://github.com/user-attachments/assets/c9eaa66a-4e76-4fd1-8f5d-ec86ad4dabaa)
